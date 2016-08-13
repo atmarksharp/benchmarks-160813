@@ -1,4 +1,4 @@
-# Benchmarks of C vs OCaml vs Go vs Nim
+# Benchmark: C vs OCaml vs Go vs Nim
 
 ## Usage
 
