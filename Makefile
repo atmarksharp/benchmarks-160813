@@ -1,4 +1,4 @@
-.PHONY: build run clean
+.PHONY: build run clean versions
 build:
 	mkdir -p bin
 	rm -rf bin/*
@@ -22,3 +22,12 @@ clean:
 	rm -rf bin
 	rm -rf src/fib.cmi src/fib.cmx src/fib.o
 	rm -rf src/nimcache
+
+versions:
+	gcc -v
+	@echo ""
+	ocamlopt -v
+	@echo ""
+	nim -v
+	@echo ""
+	go version
