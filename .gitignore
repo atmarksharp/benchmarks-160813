@@ -6,3 +6,4 @@
 *.cmx
 *.o
 bin/
+src/nimcache/

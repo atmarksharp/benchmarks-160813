@@ -1,4 +1,4 @@
-.PHONY: build run
+.PHONY: build run clean
 build:
 	mkdir -p bin
 	rm -rf bin/*
@@ -17,3 +17,8 @@ run:
 	time bin/fib-ocaml
 	time bin/fib-go
 	time bin/fib_nim
+
+clean:
+	rm -rf bin
+	rm -rf src/fib.cmi src/fib.cmx src/fib.o
+	rm -rf src/nimcache
