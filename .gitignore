@@ -1,0 +1,8 @@
+.DS_Store
+*.swp
+*.cmi
+*.cma
+*.cmo
+*.cmx
+*.o
+bin/
