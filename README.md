@@ -1,4 +1,6 @@
-## How to run 
+# Benchmarks of C vs OCaml vs Go vs Nim
+
+## Usage
 
 ```bash
 make
